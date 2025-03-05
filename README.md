@@ -171,7 +171,9 @@ See the [LICENSE.md](LICENSE.md) file for the full license text.
 Obsidian itself and any plugins mentioned are subject to their own licenses. This license only covers the content created specifically for this plant care system.
 
 ## AI Assistance
-Parts of this project were created with the assistance of Claude, an AI assistant by Anthropic. All AI-generated content has been reviewed and edited by the human maintainer.
+Parts of this project were created with the assistance of Claude, an AI assistant by Anthropic.  While I designed the system requirements and functionality, Claude helped generate significant portions of the code, templates, and documentation. Once a core template had been finalised, for example, Claude was used to quickly create variations (such as the plant species files) to provide a good start-up pack for users who may be less familiar with Obsidian. The JavaScript for updating the plant schedule was primarily AI-generated with minimal modifications.
+
+As the tools we use to create continue to evolve, so do our concepts of authorship and collaboration. Until we have reached a consensus on labelling and management of AI-created artifacts, this is my attempt to be as fair and transparent as possible.
 
 ## Credits
 
