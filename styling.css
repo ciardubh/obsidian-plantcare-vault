@@ -1,0 +1,45 @@
+/* Elegant Serif Font for Headings (Preview + Editor) */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.cm-s-obsidian .cm-header-1,
+.cm-s-obsidian .cm-header-2 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* Fern Green Accent Color (Preview + Editor) */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.cm-s-obsidian .cm-header-1,
+.cm-s-obsidian .cm-header-2 {
+    color: #5d8244;
+}
+
+/* Divider and Spacing for H2 (Preview Only) */
+.markdown-preview-view h2 {
+    position: relative;
+    margin-top: 2em; /* Adds leading space */
+    padding-top: 1em;
+}
+
+.markdown-preview-view h2::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #5d8244;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* File Title Styling */
+
+/* Ensure the file title inside the document is styled */
+.inline-title {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #5d8244;
+    background-color: #f0f7eb; /* Light green background for subtle effect */
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    display: block;
+}
